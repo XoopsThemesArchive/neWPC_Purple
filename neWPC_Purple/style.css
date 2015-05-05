@@ -1,0 +1,117 @@
+html { scrollbar-face-color: #AA1111; scrollbar-highlight-color: #FFFFFF; scrollbar-shadow-color: #996666; scrollbar-3dlight-color: #994444; scrollbar-arrow-color: #FFFFFF; scrollbar-track-color: #000000; scrollbar-darkshadow-color: #000044;}
+
+body {color: #FFFFFF; background-color: #000001; margin: 0; padding: 0;}
+
+table {width: 99%; margin: 5; padding: 5; font-size: small;}
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+a {color: #FFFFCC; text-decoration: none; font-weight: bold; background-color: transparent;}
+a:hover {color: #FFFFFF;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #FFFFFF}
+
+input.formButton {}
+
+.item {border: 0px solid #AA1111;}
+.itemHead {padding: 9px; background-color: transparent; color: #FFFFFF; font-weight: bold; text-align: left; background-image: url('images/hbar.jpg'); background-repeat: repeat; background-position: bottom left;}
+.itemInfo {text-align: right; padding: 3px; background-color: #AA1111; color: #FFFFFF;}
+.itemTitle a {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #FFFFFF; background-color: transparent;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em; color: #FFFFFF;}
+.itemText:first-letter {font-size: 133%; font-weight: bold; color: #AA1111;}
+.itemFoot {text-align: right; padding: 3px; background-color: #995555}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+th {background-color: #AA1111; color: transparent; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+td#headerbanner {background-color: #AA1111; vertical-align: middle; text-align:center; }
+tr#headerbar {text-align: center; vertical-align: middle;}
+td#headerbar {vertical-align: middle;}
+td#headerleft {background-color: #AA1111; background-image: url('images/hbar_l.jpg'); background-repeat: repeat; background-position: right top;}
+td#headerright {background-color: #AA1111; background-image: url('images/hbar_r.jpg'); background-repeat: repeat; background-position: left top;}
+
+
+td#leftcolumn {width: 170px; border-right: 0px solid #AA1111; font-size:12px; text-align: left;}
+td#leftcolumn th {background-color: #AA1111; color: #FFFFFF; vertical-align: middle;}
+td#leftcolumn div.blockTitle {padding: 9px; background-color: transparent; color: #FFFFFF; font-weight: bold; text-align: center; background-image: url('images/hbar.jpg'); background-repeat: repeat; background-position: bottom left;}
+td#leftcolumn div.blockContent {padding: 3px; line-height: 120%; line-height: 120%; border-right: 1px solid #AA1111; border-left: 1px solid #AA1111; border-bottom: 1px solid #AA1111;}
+
+td#centercolumn {background-image: url('images/wolf.jpg'); background-repeat: no-repeat; background-position: right bottom;}
+
+td#centercolumn th {padding: 6px; background-color: transparent; color: #FFFFFF; font-weight: bold; text-align: left; background-image: url('images/hbar.jpg'); background-repeat: repeat; background-position: bottom left;}
+
+td#centerCcolumn {padding: 0px 3px 1px 3px;}
+td#centerCcolumn legend.blockTitle {padding: 3px; color: #AA1111; font-weight: bold; margin-top: 0px; margin-right: 0px;  margin-left: 0px;}
+td#centerCcolumn div.blockContent {border-left: 0px solid #AA1111; border-right: 0px solid #AA1111; border-bottom: 0px solid #AA1111; padding: 3px; margin-right: 0px;  margin-left: 0px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 0px; text-align: left;}
+td#centerLcolumn legend.blockTitle {padding: 3px; color: #AA1111; font-weight: bold; margin-top: 0px;}
+td#centerLcolumn div.blockContent {border-left: 1px solid #AA1111; border-right: 1px solid #AA1111; border-bottom: 1px solid #AA1111; padding: 3px; margin-left: 3px; margin-right: 2px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 0px; text-align: left;}
+td#centerRcolumn legend.blockTitle {padding: 3px; color: #AA1111; font-weight: bold; margin-top: 0px;}
+td#centerRcolumn div.blockContent {border-left: 1px solid #AA1111; border-right: 1px solid #AA1111; border-bottom: 1px solid #AA1111; padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 120%;}
+
+div#content {text-align: left; padding: 8px; }
+
+td#rightcolumn {width: 170px; border-left: 0px solid #AA1111; font-size:12px; text-align: left;}
+td#rightcolumn th {background-color: #AA1111; color: #000000; vertical-align: middle;}
+td#rightcolumn div.blockTitle {padding: 9px; background-color: transparent; color: #FFFFFF; font-weight: bold; text-align: center; background-image: url('images/hbar.jpg'); background-repeat: repeat; background-position: bottom left;}
+td#rightcolumn div.blockContent {padding: 3px; line-height: 120%; border-right: 1px solid #AA1111; border-left: 1px solid #AA1111; border-bottom: 1px solid #AA1111;}
+
+tr#footerbar {text-align: center; background-image: url('images/fbar.jpg'); height: 70px; background-position: center top;}
+
+td#mainmenu a {text-align:center; background-image: url('images/mbar.jpg'); background-repeat: repeat; background-position: left top;}
+td#mainmenu a:hover {text-align:center; background-image: url('images/mbar.jpg'); background-repeat: repeat; background-position: left top;}
+td#mainmenu a.menuTop {}
+td#mainmenu a.menuMain {padding-left: 3px;}
+td#mainmenu a.menuSub {padding-left: 9px;}
+
+td#usermenu a {text-align:center; background-image: url('images/mbar.jpg'); background-repeat: repeat; background-position: left top;}
+td#usermenu a:hover {text-align:center; background-image: url('images/mbar.jpg'); background-repeat: repeat; background-position: left top;}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {background-color: #994444;}
+
+.outer {border: 1px solid #AA1111; }
+.head {background-color: #AA1111; padding: 5px; font-weight: bold;}
+.even {background-color: #994444; padding: 5px;}
+.odd {background-color: #996666; padding: 5px;}
+.foot {background-color: #992222; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #994444; padding: 5px;}
+tr.odd td {background-color: #996666; padding: 5px;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+
+div.confirmMsg { background-color: #AA1111; color: #FFFFFF; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+
+div.resultMsg { background-color : #AA1111; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; color: #666666; border: 1px inset #333333; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+div.xoopsQuote { background: #FFFFFF; color: #666666; border: 1px inset #333333; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+div.xoopsQuote a {color: #000000; font-weight:bold;}
+div.xoopsQuote a:hover {color: #999999; font-weight:bold; }
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #333333; font-weight:bold; border: 1px solid silver; background-color: #FFFFFF; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #FF0000; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0px none;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
